@@ -17,3 +17,4 @@ Our AeroTwin platform offers a comprehensive suite of features designed to revol
 * **Advanced Operational Insights:** Integration with real-time weather data, Turnaround Time (TAT) predictions, intelligent stand allocations, and comprehensive KPI (Key Performance Indicator) integration for optimized decision-making and performance monitoring.
 
 Coming soon.
+![Alt text for the image](aerotwin.gif "Optional title for the image") 

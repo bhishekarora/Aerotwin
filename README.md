@@ -1,7 +1,7 @@
 # Aerotwin
 Digital Twin for Airports with 360 integrations on air and land side
 
-![Alt text for the image](aerotwinplatform.png "Optional title for the image") 
+![Alt text for the image](aerotwinplatform.jpeg "Optional title for the image") 
 AeroTwin is a modular, plug-and-play digital twin for modern airports and airside operations. It combines highly realistic 3D modeling with live or simulated aircraft movements, offering a unified view of land and airside activities.
 
 ## Key Features of AeroTwin

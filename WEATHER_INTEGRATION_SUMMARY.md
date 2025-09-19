@@ -1,0 +1,1 @@
+﻿# Skeleton .\WEATHER_INTEGRATION_SUMMARY.md

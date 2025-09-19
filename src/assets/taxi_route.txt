@@ -1,0 +1,1 @@
+﻿SKELETON: .\src\assets\taxi_route.txt

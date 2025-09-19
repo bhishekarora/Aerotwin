@@ -16,7 +16,7 @@ Our AeroTwin platform offers a comprehensive suite of features designed to revol
 * **API-Driven Platform:** A powerful API (Application Programming Interface) driven platform facilitating easy and flexible integration with various airport management systems such as AMS (Airport Management System), MRO (Maintenance, Repair, and Overhaul), and BHS (Baggage Handling System).
 * **Advanced Operational Insights:** Integration with real-time weather data, Turnaround Time (TAT) predictions, intelligent stand allocations, and comprehensive KPI (Key Performance Indicator) integration for optimized decision-making and performance monitoring.
 
-Coming soon.
+
 # Enabled Features
 - **3D Airport Visualization**: Interactive 3D airport model using JS
 - **Real-time Weather**: Live weather data from Open-Meteo API
@@ -124,13 +124,13 @@ rabbitmq-server
 
 ### 6. Asset Files
 Place the following files in `src/assets/`:
-- `del.geojson` - Airport GeoJSON data
+- `airport.geojson` - Airport GeoJSON data
 - `stands.csv` - Stand configuration data
-- `t3.glb` - Terminal 3 3D model
-- `sj.glb` - SpiceJet plane model
-- `indigo.glb` - Indigo plane model
-- `watch.mp4` - Apron Watch sample video
-- `chat.png`, `eye.png` - Icons for Ops Chat and Apron Watch
+- `building.glb` - Terminal 3 3D model
+- `aircraftSJ.glb` - SpiceJet plane model
+- `aircraft6E.glb` - Indigo plane model
+- `RTSP sample` - Apron Watch sample video
+- `icons` - Icons for Ops Chat and Apron Watch
 
 ## Running the Application
 

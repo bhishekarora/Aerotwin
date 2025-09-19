@@ -189,7 +189,7 @@ airport-digital-twin/
 ```
 
 ## Architecture
-![Alt text for the image](arch.png "Optional title for the image") 
+![Alt text for the image](AT_A.png "Optional title for the image") 
 
 ## Real-time Features
 

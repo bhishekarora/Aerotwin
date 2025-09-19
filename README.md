@@ -24,7 +24,7 @@ Our AeroTwin platform offers a comprehensive suite of features designed to revol
 - **Stand Management**: Aircraft stand configuration and control
 - **Real-time Communication**: WebSocket and RabbitMQ integration
 - **Ops Chat**: Real-time operations chat (Socket.IO) with presence and rolling feed
-- **Apron Watch**: Video analytics overlay (Roboflow) with event logging and CDM updates
+- **Apron Watch**: Video analytics overlay (Visionflow) with event logging and CDM updates
 - **Control Panel**: Interactive controls for managing the digital twin
 - **Responsive Design**: Modern UI with Angular Material
 - 

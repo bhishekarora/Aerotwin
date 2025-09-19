@@ -189,6 +189,15 @@ airport-digital-twin/
 ```
 
 ## Architecture
+- Integrates seamless with all Layer 7 and layer 4 systems
+- ### Supervisory
+- SCADA/BMS/EMS
+- ### Modbux/SNMP (ILS/RADAR/PBB)
+- Supported via Slave configs and RS-485/Rs-232 adapter dongles (hardware cost around 7k INR per integration)
+- ### Layer 7 MQTT (parsers for Asterix)
+- Supported via Transformers/Bridge/Wrappers
+
+- 
 ![Alt text for the image](AT_A.png "Optional title for the image") 
 
 ## Real-time Features
@@ -200,10 +209,7 @@ airport-digital-twin/
 - `system-command` - System control commands
 
 ### RabbitMQ Queues
-- `plane-updates` - Plane data queue
-- `stand-updates` - Stand data queue
-- `weather-updates` - Weather data queue
-- `system-commands` - System commands queue
+-MQTT and sequence based support
 
 
 
@@ -259,3 +265,6 @@ airport-digital-twin/
 # ATC ACARS integration 
 ![Alt text for the image](aerotwin_acars.gif "Optional title for the image") 
 
+# Codebase & support for above
+- mail me at arora.abhishek@outlook.com
+- 

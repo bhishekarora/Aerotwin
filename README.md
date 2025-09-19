@@ -188,23 +188,8 @@ airport-digital-twin/
 └── README.md
 ```
 
-## API Endpoints
-
-### Stands
-- `GET /api/stands` - Get all stands
-- `GET /api/stands/:id` - Get stand by id
-- `PUT /api/stands/:standNumber` - Update stand rotation
-
-### Planes
-- `GET /api/planes` - Get all planes
-- `PUT /api/planes/:planeId` - Update plane position
-
-### CDM
-- `PUT /api/cdm/:id` - Upsert CDM record fields (e.g., `fuel_done`, `baggage_done`)
-
-### Weather
-- `GET /api/real-time` - Get real-time data
-- WebSocket events for live updates
+## Architecture
+![Alt text for the image](arch.png "Optional title for the image") 
 
 ## Real-time Features
 
@@ -220,46 +205,9 @@ airport-digital-twin/
 - `weather-updates` - Weather data queue
 - `system-commands` - System commands queue
 
-## Control Panel Features
 
-### Stand Management
-- Select stand (55 or 62)
-- Set rotation angle (-180° to 180°)
-- Real-time updates
 
-### Plane Controls
-- Refresh planes
-- Clear planes
-- Position management
 
-### Camera Controls
-- Fly to Terminal 3
-- Fly to stands
-- Reset camera position
-
-### Weather Controls
-- Manual weather refresh
-- Auto-update toggle
-- Real-time weather display
-
-## Configuration
-
-###  Configuration
-The application uses 3D visualization with:
-- World terrain
-- Dark imagery tiles
-- Custom access token
-- Optimized performance settings
-
-### Weather Integration
-- Open-Meteo API for free weather data
-- Automatic updates every 5 minutes
-- Real-time weather effects
-
-### Database Models
-- **Stand**: Aircraft stand configuration
-- **Plane**: Aircraft position and status
-- **Weather**: Weather data history
 
 ## Troubleshooting
 
@@ -297,34 +245,16 @@ The application uses 3D visualization with:
    - Use CDN for static assets
    - Optimize API responses
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
 
-## License
+## Future Enhancements on Digital twin Airport Ops
 
-This project is licensed under the MIT License.
+- [ ] Airport Agent with MCP support
+- [ ] Arrivals at T3 with BHS integration
+- [ ] Advanced cockpit integration
+- [ ] Resilient ACDM
+- [ ] Advanced Chaos Management
 
-## Support
-
-For support and questions:
-- Create an issue in the repository
-- Check the troubleshooting section
-- Review the API documentation
-
-## Future Enhancements
-
-- [ ] Multi-airport support
-- [ ] Advanced weather effects
-- [ ] Aircraft traffic simulation
-- [ ] Mobile application
-- [ ] Analytics dashboard
-- [ ] Machine learning integration
-- [ ] AR/VR support 
 
 # ATC ACARS integration 
 ![Alt text for the image](aerotwin_acars.gif "Optional title for the image") 

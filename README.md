@@ -176,7 +176,7 @@ airport-digital-twin/
 │   │   ├── stands.csv
 │   │   ├── t3.glb
 │   │   ├── sj.glb
-│   │   └── indigo.glb
+│   │   └── ac.glb
 │   ├── index.html
 │   ├── main.ts
 │   └── styles.css
@@ -211,7 +211,7 @@ airport-digital-twin/
 - `system-command` - System control commands
 
 ### RabbitMQ Queues
--MQTT and sequence based support 
+-MQTT and sequence based support for ACARS 
 
 
 
@@ -244,12 +244,12 @@ airport-digital-twin/
 ### Performance Optimization
 
 1. **3D Performance**
-   - Reduce model complexity
+   - Reduce model size and items
    - Optimize texture sizes
-   - Use LOD (Level of Detail)
+
 
 2. **Network Performance**
-   - Enable compression
+   - Enable compression on Express
    - Use CDN for static assets
    - Optimize API responses
 

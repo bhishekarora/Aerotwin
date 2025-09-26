@@ -6,7 +6,7 @@ AeroTwin is a modular, plug-and-play digital twin for modern airports and airsid
 
 ## Key Features of AeroTwin
 
-Our AeroTwin platform offers a comprehensive suite of features designed to revolutionize airport operations and training:
+Our AeroTwin platform offers a comprehensive suite of features designed to revolutionize airport operations and training: 
 
 * **Realistic 3D Environments:** Experience highly detailed and accurate 3D representations of terminals, aprons, and runways, providing an immersive and true-to-life operational view.
 * **Game Engine-like Simulations:** Benefit from realistic simulations of aircraft landings and departures on runways, powered by advanced game engine technology for unparalleled visual fidelity and physics.
@@ -189,7 +189,7 @@ airport-digital-twin/
 ```
 
 ## Architecture
-- Integrates seamless with all Layer 7 and layer 4 systems
+- Integrates seamless with all Layer 7 and layer 4 systems (Including AMS/Xovis/Weather/ADSB)
 - ### Supervisory
 - SCADA/BMS/EMS
 - ### Modbux/SNMP (ILS/RADAR/PBB)
@@ -197,10 +197,12 @@ airport-digital-twin/
 - ### Layer 7 MQTT (parsers for Asterix)
 - Supported via Transformers/Bridge/Wrappers
 
+*Hardware TTL transformers supported upto 5 Volts only as I have makeshift DSO only till that voltage.
+
 - 
 ![Alt text for the image](AT_A.png "Optional title for the image") 
 
-## Real-time Features
+## Real-time Features 
 
 ### WebSocket Events
 - `plane-update` - Plane position/rotation updates
@@ -209,7 +211,7 @@ airport-digital-twin/
 - `system-command` - System control commands
 
 ### RabbitMQ Queues
--MQTT and sequence based support
+-MQTT and sequence based support 
 
 
 

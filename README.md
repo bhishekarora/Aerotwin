@@ -186,14 +186,14 @@ airport-digital-twin/
 ├── angular.json
 ├── tsconfig.json
 └── README.md
-```
+```    
 
-## Architecture
-- Integrates seamless with all Layer 7 and layer 4 systems
+## Architecture 
+- Integrates seamless with all Layer 7 (AMS/Xovis/Weather/Supervisory(SCADA/BMS/EMS)) and layer 4 systems (modbus/snmp/ILS/Radars)
 - ### Supervisory
 - SCADA/BMS/EMS
 - ### Modbux/SNMP (ILS/RADAR/PBB)
-- Supported via Slave configs and RS-485/Rs-232 adapter dongles (hardware cost around 7k INR per integration)
+- Supported via Slave configs and RS-485/Rs-232 adapter dongles (hardware cost around 7k INR per integration, all serial TTL systems supported) 
 - ### Layer 7 MQTT (parsers for Asterix)
 - Supported via Transformers/Bridge/Wrappers
 

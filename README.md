@@ -205,6 +205,13 @@ airport-digital-twin/
 - 
 ![Alt text for the image](AT_A.png "Optional title for the image") 
 
+## Network circuits
+
+[Angular frontend VLAN 1] --> [Backend API servers in VLAN2]
+    --> [Perimeter firewall]
+        --> either [Direct WAN breakout] OR [CCI/APCN]
+            --> [External services like weather APIs]
+
 ## Real-time Features 
 
 ### WebSocket Events

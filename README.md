@@ -269,4 +269,12 @@ airport-digital-twin/
 
 # Codebase & support for above
 - mail me at arora.abhishek@outlook.com
-- 
+
+
+# Costing Line items
+Current costing of this MVP onPerm 
+
+ - Cost of running 2 Vms (16 Gig --> 5 screens) on perm (Front end & Backend services including integration layer & AI )  * Cloud native also available (Dockerized Front/Back/Vision/Mongo/Rabbit/prediction containers , K8 supported)
+ - Weather API (Currently free)
+ - ADSB feed (Currently Free credits, Buy paid version from flight radar or use local airport feed if available at T3 )
+ - 3d model development (Texture based  Inner and Outer )

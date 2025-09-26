@@ -196,7 +196,7 @@ airport-digital-twin/
 - Supported via Slave configs and RS-485/Rs-232 adapter dongles (hardware cost around 7k INR per integration)
 
    *Sample Connector    
-![Alt text for the image](modbusrs485.png "Optional title for the image") 
+![Alt text for the image](modbusrs4851.png "Optional title for the image") 
 - ### Layer 7 MQTT (parsers for Asterix)
 - Supported via Transformers/Bridge/Wrappers
   
